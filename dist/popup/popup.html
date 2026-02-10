@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Productivity Extension</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Productivity Extension</h1>
+    <!-- Theme toggle button -->
+    <button id="themeToggle" class="theme-toggle" title="Toggle theme"><img id="themeIcon" src="" alt="theme" width="24" height="24"></button>
+  </div>
+
+  <!-- Toggle to block sites -->
+  <div class="toggle-container">
+    <label class="switch">
+      <input type="checkbox" id="toggleSites">
+      <span class="slider"></span>
+    </label>
+    <span>Block Sites</span>
+  </div>
+
+  <!-- Websites Manager -->
+  <div class="sites-manager" id="sitesManager" style="display: none;">
+    <div class="site-list" id="siteList"></div>
+    <div class="add-site">
+      <input type="text" id="newSite" placeholder="example.com">
+      <button id="addSite">Add</button>
+    </div>
+  </div>
+
+  <!-- Toggle to block shorts -->
+  <div class="toggle-container">
+    <label class="switch">
+      <input type="checkbox" id="toggleShorts">
+      <span class="slider"></span>
+    </label>
+    <span>Block Shorts</span>
+  </div>
+
+  <!-- Toggle to block sidebar suggestions -->
+  <div class="toggle-container">
+    <label class="switch">
+      <input type="checkbox" id="toggleSidebar">
+      <span class="slider"></span>
+    </label>
+    <span>Block Sidebar Suggestions</span>
+  </div>
+
+  <div class="buttons">
+    <a class="advice" href="https://forms.gle/RusmYTRL7E4JaquB9" target="_blank" rel="noopener noreferrer">
+      Let your advice
+    </a>
+
+    <a class="linkedin" href="https://www.linkedin.com/in/hugo-jaumotte/" target="_blank" rel="noopener noreferrer">
+      <img src="/icons/linkedin.png" alt="LinkedIn Icon" width="30" height="30"> Hugo Jaumotte
+    </a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
