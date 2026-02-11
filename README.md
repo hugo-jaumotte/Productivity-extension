@@ -1,6 +1,8 @@
 # Productivity Extension
 
-![Extension Icon](icons/icon.png)
+<p align="center">
+  <img src="icons/icon.png" width="50%"/>
+</p>
 
 A Chrome extension to help you stay focused by **blocking distracting websites**, including YouTube Shorts, sidebars, and social media feeds.
 
