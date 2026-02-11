@@ -22,8 +22,12 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
 
 ## Screenshots
 
-![Popup Screenshot](screenshots/popup.png)  
-![Blocked Page Screenshot](screenshots/blocked.png)
+<p align="center">
+  <img src="icons/screen1.png" width="40%"/><img src="icons/screen1.png" width="40%"/>
+</p>
+<p align="center">
+  <img src="icons/screen3.png" width="40%"/>
+</p>
 
 ---
 
