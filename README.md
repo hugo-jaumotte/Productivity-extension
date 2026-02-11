@@ -52,3 +52,8 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
 2. Open Chrome extension manager:
    ```bash
    chrome://extensions/
+
+3. Active the Developer mode:
+  <p align="center">
+    <img src="icons/tuto1.png" width="300"/>
+  </p>
