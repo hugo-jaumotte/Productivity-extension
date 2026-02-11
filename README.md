@@ -33,14 +33,12 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
       <sub><b>Blocklist Management - Dark theme</b></sub>
     </td>
   </tr>
-  <tr>
-    <td>
-      <p align="center">
-        <img src="icons/screen3.png" width="40%"/>
-        <sub><b>Blocked site screen</b></sub>
-      </p>
-    </td>
-  </tr>
+</table>
+<table>
+  <p align="center">
+    <img src="icons/screen3.png" width="40%"/><br>
+    <sub><b>Blocked site screen</b></sub>
+  </p>
 </table>
 
 ---
