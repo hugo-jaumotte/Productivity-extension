@@ -22,12 +22,28 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
 
 ## Screenshots
 
+<h2 align="center">📸 Screenshots</h2>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="icons/screen1.png" width="300"/><br/>
+      <sub><b>Popup – Focus Mode</b></sub>
+    </td>
+    <td align="center">
+      <img src="icons/screen2.png" width="300"/><br/>
+      <sub><b>Blocklist Management</b></sub>
+    </td>
+  </tr>
+</table>
+
 <p align="center">
-  <img src="icons/screen1.png" width="40%"/><img src="icons/screen2.png" width="40%"/>
+  <img src="icons/screen1.png" width="40%"/><img src="icons/screen1.png" width="40%"/>
 </p>
 <p align="center">
   <img src="icons/screen3.png" width="40%"/>
 </p>
+
 
 ---
 
