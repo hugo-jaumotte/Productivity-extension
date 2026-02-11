@@ -23,7 +23,7 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
 ## Screenshots
 
 <p align="center">
-  <img src="icons/screen1.png" width="40%"/><img src="icons/screen1.png" width="40%"/>
+  <img src="icons/screen1.png" width="40%"/><img src="icons/screen2.png" width="40%"/>
 </p>
 <p align="center">
   <img src="icons/screen3.png" width="40%"/>
