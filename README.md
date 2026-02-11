@@ -55,5 +55,5 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
 
 3. Active the Developer mode:
   <p align="center">
-    <img src="icons/tuto1.png" width="300"/>
+    <img src="icons/tuto1.png" width="100%"/>
   </p>
