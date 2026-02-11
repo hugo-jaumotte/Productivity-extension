@@ -53,7 +53,7 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
    ```bash
    chrome://extensions/
 
-3. Active the Developer mode:
+3. Enable the Developer mode:
   <p align="center">
     <img src="icons/tuto1.png" width="100%"/>
   </p>
