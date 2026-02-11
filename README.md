@@ -45,7 +45,7 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
 
 ## Installation
 
-1. Clone the repository:
+1. Open the CMD and clone the repository on your (C:):
    ```bash
    git clone https://github.com/hugo-jaumotte/Productivity-extension.git
 
@@ -56,4 +56,14 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
 3. Enable the Developer mode:
   <p align="center">
     <img src="icons/dev_mode.png" width="100%"/>
+  </p>
+
+4. Click on "Load Unpacked"
+  <p align="center">
+    <img src="icons/load_unpacked.png" width="50%"/>
+  </p>
+
+5. Select the extension folder and open it
+  <p align="center">
+    <img src="icons/files.png" width="50%"/>
   </p>
