@@ -48,3 +48,7 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
 1. Clone the repository:
    ```bash
    git clone https://github.com/hugo-jaumotte/Productivity-extension.git
+
+2. Open Chrome extension manager:
+   ```bash
+   chrome://extensions/
