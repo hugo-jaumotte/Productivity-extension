@@ -22,8 +22,6 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
 
 ## Screenshots
 
-<h2 align="center">📸 Screenshots</h2>
-
 <table align="center">
   <tr>
     <td align="center">
