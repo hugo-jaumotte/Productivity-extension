@@ -36,7 +36,7 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
 </table>
 <table>
   <p align="center">
-    <img src="icons/screen3.png" width="40%"/><br>
+    <img src="icons/screen3.png" width="300"/><br>
     <sub><b>Blocked site screen</b></sub>
   </p>
 </table>
