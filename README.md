@@ -60,11 +60,16 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
   </p>
 
 4. Click on "Load Unpacked"
-  <p align="center">
+  <p>
     <img src="icons/load_unpacked.png" width="50%"/>
   </p>
 
-5. Select the extension folder and open it
-  <p align="center">
+5. Select the extension folder and open it:
+  <p>
     <img src="icons/files.png" width="50%"/>
+  </p>
+
+6. Click here to acces to your extensions:
+<p>
+    <img src="icons/puzzle.png" width="50%"/>
   </p>
