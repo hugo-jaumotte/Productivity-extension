@@ -1,7 +1,7 @@
 # Productivity Extension
 
 [![GitHub stars](https://img.shields.io/github/stars/hugo-jaumotte/Productivity-extension?style=social)](https://github.com/hugo-jaumotte/Productivity-extension)
-[![License](https://img.shields.io/github/license/hugo-jaumotte/Productivity-extension?label=License)](https://github.com/hugo-jaumotte/Productivity-extension/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/hugo-jaumotte/Productivity-extension?style=for-the-badge)](https://github.com/hugo-jaumotte/Productivity-extension/blob/main/LICENSE)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
 
 <p align="center">
@@ -107,7 +107,7 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
 ### Chrome Extension Architecture (Manifest V3)
 
 1. Issue
-Needed a modern, supported architecture for Chrome that allows the extension to request all the permissions required for its proper functioning.
+The extension requires a modern, supported architecture that properly manages permissions.
 
 2. Solution
 The manifest.json file defines the functionality of the extension and the permissions required for its proper functioning.
@@ -138,3 +138,16 @@ The extension needs to remember user settings, such as the blocklist or whether 
 
 2. Solution
 Use the Chrome storage API to save settings locally. This allows the extension to persist user preferences across sessions and devices.
+
+---
+
+## Evolution Perspectives
+
+Publish the project into the Chrome Web Store
+
+Integrate a backend using Node.js and SQLite to store anonymized user's data and enable more advanced analytics.
+
+This could allows us to add new features:
+- Tracking average time spent on distracting websites
+- Weekly productivity reports and activity summaries
+- Progress tracking and improvement metrics
