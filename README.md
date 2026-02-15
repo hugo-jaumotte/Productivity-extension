@@ -112,7 +112,6 @@ Needed a modern, supported architecture for Chrome that allows the extension to 
 
 2. Solution
 The manifest.json file defines the functionality of the extension and the permissions required for its proper functioning.
-
 Manifest V3 is the latest version, more efficient, and compliant with the current Chrome browser policies. Its declarative permissions model ensures the extension requests only what it needs, improving security.
 
 
@@ -123,7 +122,6 @@ We need an effective way to block websites that are part of the user’s blocked
 
 2. Solution
 When a webpage is requested, the browser sends an HTTP/HTTPS network request to the server. Preemptive network blocking intercepts the request and stops it before the page loads, preventing the website from appearing at all.
-
 The most effective approach in Chrome is using the declarativeNetRequest API, which lets us define rules for automatically blocking requests.
 
 ### Content Scripts & DOM Manipulation
