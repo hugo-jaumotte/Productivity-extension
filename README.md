@@ -1,9 +1,8 @@
 # Productivity Extension
 
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx?label=Chrome%20Web%20Store)
-![GitHub stars](https://img.shields.io/github/stars/hugo-jaumotte/Productivity-extension?style=social)
-![License](https://img.shields.io/github/license/hugo-jaumotte/Productivity-extension)
-![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue)
+[![GitHub stars](https://img.shields.io/github/stars/hugo-jaumotte/Productivity-extension?style=social)](https://github.com/hugo-jaumotte/Productivity-extension)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/hugo-jaumotte/Productivity-extension/blob/main/LICENSE)  <!-- Change to your license -->
+[![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
 
 <p align="center">
   <img src="icons/icon.png" width="40%"/>
