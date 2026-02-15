@@ -143,11 +143,11 @@ Use the Chrome storage API to save settings locally. This allows the extension t
 
 ## Evolution Perspectives
 
-Publish the project into the Chrome Web Store
+Publish the extension on the Chrome Web Store
 
-Integrate a backend using Node.js and SQLite to store anonymized user's data and enable more advanced analytics.
+Integrate a backend using Node.js and SQLite to store user data and enable more advanced analytics.
 
-This could allows us to add new features:
+This could allow us to add new features:
 - Tracking average time spent on distracting websites
 - Weekly productivity reports and activity summaries
 - Progress tracking and improvement metrics
