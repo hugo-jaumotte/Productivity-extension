@@ -1,6 +1,6 @@
 # Productivity Extension
 
-[![GitHub stars](https://img.shields.io/github/stars/hugo-jaumotte/Productivity-extension?style=social)](https://github.com/hugo-jaumotte/Productivity-extension)
+[![GitHub stars](https://img.shields.io/github/stars/hugo-jaumotte/Productivity-extension?style=social&cacheSeconds=0)](https://github.com/hugo-jaumotte/Productivity-extension)
 [![License](https://img.shields.io/github/license/hugo-jaumotte/Productivity-extension?label=License)](https://github.com/hugo-jaumotte/Productivity-extension/blob/main/LICENSE)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
 
