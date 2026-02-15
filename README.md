@@ -1,5 +1,10 @@
 # Productivity Extension
 
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx?label=Chrome%20Web%20Store)
+![GitHub stars](https://img.shields.io/github/stars/hugo-jaumotte/Productivity-extension?style=social)
+![License](https://img.shields.io/github/license/hugo-jaumotte/Productivity-extension)
+![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue)
+
 <p align="center">
   <img src="icons/icon.png" width="40%"/>
 </p>
@@ -45,9 +50,8 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
 
 ## Installation
 
-1. Open a terminal and paste this:
+1. Open a terminal and clone the repository on your computer:
    ```bash
-   cd C:\
    git clone https://github.com/hugo-jaumotte/Productivity-extension.git
 
 2. Open Chrome extension manager:
@@ -69,7 +73,71 @@ A Chrome extension to help you stay focused by **blocking distracting websites**
     <img src="icons/files.png" width="50%"/>
   </p>
 
-6. Click here to acces to your extensions:
+6. Click here to access your extensions:
 <p align="center">
     <img src="icons/extensions.png" width="30%"/>
   </p>
+
+---
+
+## Technologies and Architecture
+
+### Programming Language
+- TypeScript
+
+### Extension Platform
+- Chrome Extension API (Manifest V3)
+
+### Network Filtering
+- DeclarativeNetRequest API
+
+### Content Manipulation
+- Content Scripts (DOM API)
+
+### State Management
+- Chrome Storage API
+
+### Frontend
+- HTML
+- CSS
+
+---
+
+## Technical Decisions
+
+### Chrome Extension Architecture (Manifest V3)
+
+1. Issue
+Needed a modern, supported architecture for Chrome that allows the extension to request all the permissions required for its proper functioning.
+
+2. Solution
+The manifest.json file defines the functionality of the extension and the permissions required for its proper functioning.
+
+Manifest V3 is the latest version, more efficient, and compliant with the current Chrome browser policies. Its declarative permissions model ensures the extension requests only what it needs, improving security.
+
+
+### Preemptive Network Blocking
+
+1. Issue
+We need an effective way to block websites that are part of the user’s blocked list.
+
+2. Solution
+When a webpage is requested, the browser sends an HTTP/HTTPS network request to the server. Preemptive network blocking intercepts the request and stops it before the page loads, preventing the website from appearing at all.
+
+The most effective approach in Chrome is using the declarativeNetRequest API, which lets us define rules for automatically blocking requests.
+
+### Content Scripts & DOM Manipulation
+
+1. Issue
+Some distracting content, like YouTube Shorts or sidebar recommendations, cannot be blocked purely at the network level since they appear in the DOM.
+
+2. Solution
+Content scripts are JavaScript files that are injected into a webpage. They can access and manipulate the page’s DOM, allowing the extension to hide, remove, or modify specific elements after the page loads.
+
+### State Management (Chrome Storage)
+
+1. Issue
+The extension needs to remember user settings, such as the blocklist or whether focus mode is enabled, even after the browser is closed or restarted.
+
+2. Solution
+Use the Chrome storage API to save settings locally. This allows the extension to persist user preferences across sessions and devices.
